@@ -1,6 +1,71 @@
-#page {
-background-color: #f5f4f0;
-width: 1280px;
-height: 3279px;
-margin: auto;
+:root{
+    font-family: "Open Sans", sans-serif;
 }
+
+#page{
+    box-sizing: border-box;
+    margin:88px auto;
+    width: 1280px;
+    height: 3279px;
+    padding:40px;
+    background-color: #f5f4f0;
+    
+}
+
+#descriptiontittle{
+    padding-left: 40px;
+    
+}
+
+.headline{
+    font-size: 16px;
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+    margin-bottom: 0px;    
+    padding-left: 40px;
+}
+
+h1{
+    padding-left: 40px;
+   font-size: 36px;
+   font-weight: bold;
+   margin-top: 0px;
+
+}
+
+#descriptiontittle p{
+    padding-left: 40px;
+    text-align: center;
+    padding-right: 40px;
+}
+
+p{
+    padding-left: 40px;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+
+h2{
+   padding-left: 40px;
+   font-size: 32px;
+   font-weight: bold;
+   margin-top: 0px;
+   
+}
+
+h3{
+   padding-top:20px;
+   padding-left: 40px;
+   font-size: 28px;
+   font-weight: bold;
+   margin-top: 0px;
+   padding-bottom: 4px;
+
+}
+
