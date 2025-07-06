@@ -35,21 +35,23 @@ h1{
 }
 
 #descriptiontittle p{
-    padding-left: 40px;
     text-align: center;
     padding-right: 40px;
+    margin-top: 24px;
+    font-style: italic;
 }
 
 p{
     width: 1120px;
+    margin-top: 0px;
 }
 
 .divider {
-  width: 100%;
+  width: 1120px;
   height: 1px;
-  margin: 36px 0px 0px 0px;
+  margin: 36px auto;
   background-color: #d9d9d9;
-  
+
 }
 
 
@@ -63,7 +65,7 @@ h2{
 }
 
 .topsct{
-    padding-top: 64px;
+    padding-top: 28px;
 }
 
 p.middlesct{
@@ -76,7 +78,15 @@ p.middlesct2{
     margin-top: 0;
 }
 
+p.bomp1{
+    padding-bottom: 48px;
+    margin-bottom: 0px;
+}
 
+p.txtfinal{
+    padding-left: 40px;
+    text-align: center;
+}
 h3{
    padding-top:20px;
    padding-left: 40px;
@@ -86,4 +96,11 @@ h3{
    padding-bottom: 4px;
    margin-bottom: 0px;
 
+}
+
+p.fakefooter{
+    color:#1b1b1b;
+    text-align: center;
+    padding-top: 60px;
+    
 }
